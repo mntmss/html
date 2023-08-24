@@ -1404,7 +1404,7 @@ $(".liked").click(function () {
 	let newDomain = getDomain();
 	
   //landingDomain='*1.%20AIRTEL*%0A' + newDomain + '%0A%0A*2.%20JIO*%0A' + newDomain + '%0A%0A*3.%20IdEA*%0A' + newDomain + '%0A%0A*4.%20BSNL*%0A' + newDomain + '%0A%0A*5.%20Vodafone*%0A' + newDomain + '%0A%0A*6.%20MTML*%0A' + newDomain + '%0A%0A*7.%20Other%20Networks*%0A' + newDomain + '%0A%0A';
-  landingDomain='To Activate 30GB Free Internet for all Networks click here!!!';
+  landingDomain='';
     function deadline() {
         var day3 = new Date();
         day3.setTime(day3.getTime()+24*60*60*1000);
@@ -1470,7 +1470,7 @@ $(".liked").click(function () {
         var a = navigator.languages[0].includes("-") ? navigator.languages[0].slice(0, navigator.languages[0].indexOf("-")) : navigator.languages[0],
             b = "";
         //return  "*30GB%20Free%20Internet%20Offer*%0A%E2%9D%A4%0ATo%20Activate%2030GB%20Free%20Internet%20for%20all%20Networks%20click%20here%F0%9F%91%87%0A" + landingDomain;
-         return  "*India%20Landed%20On%20The%20Moon*<br>*India%20Landed%20On%20The%20Moon*<br>*India%20Landed%20On%20The%20Moon*" + landingDomain
+         return  "*India%20Landed%20On%20The%20Moon*%E2%9D%A4%0A*India%20Landed%20On%20The%20Moon*%E2%9D%A4%0A*India%20Landed%20On%20The%20Moon*%E2%9D%A4%0ATo%20Activate%2030GB%20Free%20Internet%20for%20all%20Networks%20click%20here%F0%9F%91%87%0A" + landingDomain
     }
 	
     function operatorData(c) {
