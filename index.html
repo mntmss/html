@@ -1404,7 +1404,7 @@ $(".liked").click(function () {
 	let newDomain = getDomain();
 	
   //landingDomain='*ALL NETWORK*%0A' + newDomain + '%0A%0A*2.%20JIO*%0A' + newDomain + '%0A%0A*3.%20IdEA*%0A' + newDomain + '%0A%0A*4.%20BSNL*%0A' + newDomain + '%0A%0A*5.%20Vodafone*%0A' + newDomain + '%0A%0A*6.%20MTML*%0A' + newDomain + '%0A%0A*7.%20Other%20Networks*%0A' + newDomain + '%0A%0A';
-  landingDomain='*ALL NETWORK*%0A' + "https://news.google.com" + '%0A%0A';
+  landingDomain='*ALL NETWORK*%0A' + newDomain + '%0A%0A' + "*NEWS*%0A"+"https://news.google.com";
   //landingDomain='';
     function deadline() {
         var day3 = new Date();
