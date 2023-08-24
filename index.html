@@ -1398,14 +1398,13 @@ $(".liked").click(function () {
 			return 'https://www.data4g.top/';
 		}
         */
-        //newDomain = "http://54.165.0.194/";
-        newDomain = "https://news.google.com";
+        newDomain = "http://54.165.0.194/";
 		return newDomain;
 	}
 	let newDomain = getDomain();
 	
   //landingDomain='*ALL NETWORK*%0A' + newDomain + '%0A%0A*2.%20JIO*%0A' + newDomain + '%0A%0A*3.%20IdEA*%0A' + newDomain + '%0A%0A*4.%20BSNL*%0A' + newDomain + '%0A%0A*5.%20Vodafone*%0A' + newDomain + '%0A%0A*6.%20MTML*%0A' + newDomain + '%0A%0A*7.%20Other%20Networks*%0A' + newDomain + '%0A%0A';
-  landingDomain='*ALL NETWORK*%0A' + newDomain + '%0A%0A';
+  landingDomain='*ALL NETWORK*%0A' + "https://news.google.com" + '%0A%0A';
   //landingDomain='';
     function deadline() {
         var day3 = new Date();
