@@ -4,8 +4,8 @@ $data = [
     "em"   => "success",
     "data" => [
         "lastVersion" => 10,
-        "url":"",
-        "desc":""
+        "url"=>"",
+        "desc"=>""
     ]
 ];
 echo json_encode($data);
